@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7F6A93925412295003FFCA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F6A93825412295003FFCA2 /* AppDelegate.swift */; };
+		A7F6A93B25412295003FFCA2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F6A93A25412295003FFCA2 /* SceneDelegate.swift */; };
+		A7F6A93D25412295003FFCA2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F6A93C25412295003FFCA2 /* HomeViewController.swift */; };
+		A7F6A94025412295003FFCA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7F6A93E25412295003FFCA2 /* Main.storyboard */; };
+		A7F6A94325412295003FFCA2 /* myShazam.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7F6A94125412295003FFCA2 /* myShazam.xcdatamodeld */; };
+		A7F6A94525412298003FFCA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7F6A94425412298003FFCA2 /* Assets.xcassets */; };
+		A7F6A94825412298003FFCA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7F6A94625412298003FFCA2 /* LaunchScreen.storyboard */; };
+		A7F6A95325412298003FFCA2 /* myShazamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F6A95225412298003FFCA2 /* myShazamTests.swift */; };
+		A7F6A95E25412298003FFCA2 /* myShazamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F6A95D25412298003FFCA2 /* myShazamUITests.swift */; };
+		A7F6A97E25412C75003FFCA2 /* ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F6A97D25412C75003FFCA2 /* ViewCell.swift */; };
+		A7F6A98425412D81003FFCA2 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F6A98325412D81003FFCA2 /* Song.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7F6A94F25412298003FFCA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7F6A92D25412295003FFCA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7F6A93425412295003FFCA2;
+			remoteInfo = myShazam;
+		};
+		A7F6A95A25412298003FFCA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7F6A92D25412295003FFCA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7F6A93425412295003FFCA2;
+			remoteInfo = myShazam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A7F6A93525412295003FFCA2 /* myShazam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myShazam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7F6A93825412295003FFCA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A7F6A93A25412295003FFCA2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A7F6A93C25412295003FFCA2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A7F6A93F25412295003FFCA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7F6A94225412295003FFCA2 /* myShazam.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = myShazam.xcdatamodel; sourceTree = "<group>"; };
+		A7F6A94425412298003FFCA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7F6A94725412298003FFCA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7F6A94925412298003FFCA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7F6A94E25412298003FFCA2 /* myShazamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myShazamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7F6A95225412298003FFCA2 /* myShazamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myShazamTests.swift; sourceTree = "<group>"; };
+		A7F6A95425412298003FFCA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7F6A95925412298003FFCA2 /* myShazamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myShazamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7F6A95D25412298003FFCA2 /* myShazamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myShazamUITests.swift; sourceTree = "<group>"; };
+		A7F6A95F25412298003FFCA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7F6A97D25412C75003FFCA2 /* ViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCell.swift; sourceTree = "<group>"; };
+		A7F6A98325412D81003FFCA2 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7F6A93225412295003FFCA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F6A94B25412298003FFCA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F6A95625412298003FFCA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7F6A92C25412295003FFCA2 = {
+			isa = PBXGroup;
+			children = (
+				A7F6A93725412295003FFCA2 /* myShazam */,
+				A7F6A95125412298003FFCA2 /* myShazamTests */,
+				A7F6A95C25412298003FFCA2 /* myShazamUITests */,
+				A7F6A93625412295003FFCA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7F6A93625412295003FFCA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7F6A93525412295003FFCA2 /* myShazam.app */,
+				A7F6A94E25412298003FFCA2 /* myShazamTests.xctest */,
+				A7F6A95925412298003FFCA2 /* myShazamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7F6A93725412295003FFCA2 /* myShazam */ = {
+			isa = PBXGroup;
+			children = (
+				A7F6A98225412D6F003FFCA2 /* Model */,
+				A7F6A976254122D9003FFCA2 /* Utilities */,
+				A7F6A971254122B7003FFCA2 /* Controller */,
+				A7F6A975254122C4003FFCA2 /* View */,
+				A7F6A94125412295003FFCA2 /* myShazam.xcdatamodeld */,
+			);
+			path = myShazam;
+			sourceTree = "<group>";
+		};
+		A7F6A95125412298003FFCA2 /* myShazamTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7F6A95225412298003FFCA2 /* myShazamTests.swift */,
+				A7F6A95425412298003FFCA2 /* Info.plist */,
+			);
+			path = myShazamTests;
+			sourceTree = "<group>";
+		};
+		A7F6A95C25412298003FFCA2 /* myShazamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A7F6A95D25412298003FFCA2 /* myShazamUITests.swift */,
+				A7F6A95F25412298003FFCA2 /* Info.plist */,
+			);
+			path = myShazamUITests;
+			sourceTree = "<group>";
+		};
+		A7F6A971254122B7003FFCA2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A7F6A93C25412295003FFCA2 /* HomeViewController.swift */,
+				A7F6A97D25412C75003FFCA2 /* ViewCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A7F6A975254122C4003FFCA2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A7F6A93E25412295003FFCA2 /* Main.storyboard */,
+				A7F6A94425412298003FFCA2 /* Assets.xcassets */,
+				A7F6A94625412298003FFCA2 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A7F6A976254122D9003FFCA2 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A7F6A93825412295003FFCA2 /* AppDelegate.swift */,
+				A7F6A93A25412295003FFCA2 /* SceneDelegate.swift */,
+				A7F6A94925412298003FFCA2 /* Info.plist */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A7F6A98225412D6F003FFCA2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A7F6A98325412D81003FFCA2 /* Song.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7F6A93425412295003FFCA2 /* myShazam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7F6A96225412298003FFCA2 /* Build configuration list for PBXNativeTarget "myShazam" */;
+			buildPhases = (
+				A7F6A93125412295003FFCA2 /* Sources */,
+				A7F6A93225412295003FFCA2 /* Frameworks */,
+				A7F6A93325412295003FFCA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myShazam;
+			productName = myShazam;
+			productReference = A7F6A93525412295003FFCA2 /* myShazam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7F6A94D25412298003FFCA2 /* myShazamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7F6A96525412298003FFCA2 /* Build configuration list for PBXNativeTarget "myShazamTests" */;
+			buildPhases = (
+				A7F6A94A25412298003FFCA2 /* Sources */,
+				A7F6A94B25412298003FFCA2 /* Frameworks */,
+				A7F6A94C25412298003FFCA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7F6A95025412298003FFCA2 /* PBXTargetDependency */,
+			);
+			name = myShazamTests;
+			productName = myShazamTests;
+			productReference = A7F6A94E25412298003FFCA2 /* myShazamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A7F6A95825412298003FFCA2 /* myShazamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7F6A96825412298003FFCA2 /* Build configuration list for PBXNativeTarget "myShazamUITests" */;
+			buildPhases = (
+				A7F6A95525412298003FFCA2 /* Sources */,
+				A7F6A95625412298003FFCA2 /* Frameworks */,
+				A7F6A95725412298003FFCA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7F6A95B25412298003FFCA2 /* PBXTargetDependency */,
+			);
+			name = myShazamUITests;
+			productName = myShazamUITests;
+			productReference = A7F6A95925412298003FFCA2 /* myShazamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7F6A92D25412295003FFCA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					A7F6A93425412295003FFCA2 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					A7F6A94D25412298003FFCA2 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = A7F6A93425412295003FFCA2;
+					};
+					A7F6A95825412298003FFCA2 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = A7F6A93425412295003FFCA2;
+					};
+				};
+			};
+			buildConfigurationList = A7F6A93025412295003FFCA2 /* Build configuration list for PBXProject "myShazam" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7F6A92C25412295003FFCA2;
+			productRefGroup = A7F6A93625412295003FFCA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7F6A93425412295003FFCA2 /* myShazam */,
+				A7F6A94D25412298003FFCA2 /* myShazamTests */,
+				A7F6A95825412298003FFCA2 /* myShazamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7F6A93325412295003FFCA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F6A94825412298003FFCA2 /* LaunchScreen.storyboard in Resources */,
+				A7F6A94525412298003FFCA2 /* Assets.xcassets in Resources */,
+				A7F6A94025412295003FFCA2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F6A94C25412298003FFCA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F6A95725412298003FFCA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7F6A93125412295003FFCA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F6A98425412D81003FFCA2 /* Song.swift in Sources */,
+				A7F6A93D25412295003FFCA2 /* HomeViewController.swift in Sources */,
+				A7F6A93925412295003FFCA2 /* AppDelegate.swift in Sources */,
+				A7F6A93B25412295003FFCA2 /* SceneDelegate.swift in Sources */,
+				A7F6A94325412295003FFCA2 /* myShazam.xcdatamodeld in Sources */,
+				A7F6A97E25412C75003FFCA2 /* ViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F6A94A25412298003FFCA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F6A95325412298003FFCA2 /* myShazamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F6A95525412298003FFCA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F6A95E25412298003FFCA2 /* myShazamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7F6A95025412298003FFCA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7F6A93425412295003FFCA2 /* myShazam */;
+			targetProxy = A7F6A94F25412298003FFCA2 /* PBXContainerItemProxy */;
+		};
+		A7F6A95B25412298003FFCA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7F6A93425412295003FFCA2 /* myShazam */;
+			targetProxy = A7F6A95A25412298003FFCA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7F6A93E25412295003FFCA2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7F6A93F25412295003FFCA2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7F6A94625412298003FFCA2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7F6A94725412298003FFCA2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7F6A96025412298003FFCA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A7F6A96125412298003FFCA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7F6A96325412298003FFCA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = myShazam/Utilities/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rene.myShazam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7F6A96425412298003FFCA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = myShazam/Utilities/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rene.myShazam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A7F6A96625412298003FFCA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = myShazamTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rene.myShazamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myShazam.app/myShazam";
+			};
+			name = Debug;
+		};
+		A7F6A96725412298003FFCA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = myShazamTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rene.myShazamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myShazam.app/myShazam";
+			};
+			name = Release;
+		};
+		A7F6A96925412298003FFCA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = myShazamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rene.myShazamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = myShazam;
+			};
+			name = Debug;
+		};
+		A7F6A96A25412298003FFCA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = myShazamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rene.myShazamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = myShazam;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7F6A93025412295003FFCA2 /* Build configuration list for PBXProject "myShazam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7F6A96025412298003FFCA2 /* Debug */,
+				A7F6A96125412298003FFCA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7F6A96225412298003FFCA2 /* Build configuration list for PBXNativeTarget "myShazam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7F6A96325412298003FFCA2 /* Debug */,
+				A7F6A96425412298003FFCA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7F6A96525412298003FFCA2 /* Build configuration list for PBXNativeTarget "myShazamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7F6A96625412298003FFCA2 /* Debug */,
+				A7F6A96725412298003FFCA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7F6A96825412298003FFCA2 /* Build configuration list for PBXNativeTarget "myShazamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7F6A96925412298003FFCA2 /* Debug */,
+				A7F6A96A25412298003FFCA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A7F6A94125412295003FFCA2 /* myShazam.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A7F6A94225412295003FFCA2 /* myShazam.xcdatamodel */,
+			);
+			currentVersion = A7F6A94225412295003FFCA2 /* myShazam.xcdatamodel */;
+			path = myShazam.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A7F6A92D25412295003FFCA2 /* Project object */;
+}
