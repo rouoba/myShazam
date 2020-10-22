@@ -36,4 +36,8 @@ class HomeViewController: UITableViewController {
         cell.songTitle.text = songList[indexPath.row].tracktitle
         return cell
     }
+    
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 75.0
+    }
 }
