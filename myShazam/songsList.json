@@ -1,0 +1,757 @@
+[
+  {
+    "date": "2015-08-14T19:30:12.419Z",
+    "artistname": "Red Hot Chili Peppers",
+    "tracktitle": "Under The Bridge",
+  },
+  {
+    "date": "2015-08-14T19:33:45.695Z",
+    "artistname": "Beck",
+    "tracktitle": "Dreams",
+  },
+  {
+    "date": "2015-08-14T21:10:26.286Z",
+    "artistname": "Melissa Etheridge",
+    "tracktitle": "Come To My Window",
+  },
+  {
+    "date": "2015-08-15T01:08:12.642Z",
+    "artistname": "Selena Gomez Feat. A$AP Rocky",
+    "tracktitle": "Good For You",
+  },
+  {
+    "date": "2015-08-15T01:44:24.488Z",
+    "artistname": "Black Rob",
+    "tracktitle": "Whoa!",
+  },
+  {
+    "date": "2015-08-15T16:23:26.832Z",
+    "artistname": "Robert DeLong",
+    "tracktitle": "Long Way Down",
+  },
+  {
+    "date": "2015-08-16T00:14:16.008Z",
+    "artistname": "Ariana Grande & The Weeknd",
+    "tracktitle": "Love Me Harder (Gregor Salto Amsterdam Mix)",
+  },
+  {
+    "date": "2015-08-16T05:05:04.993Z",
+    "artistname": "Beck",
+    "tracktitle": "Dreams",
+  },
+  {
+    "date": "2015-08-18T04:05:09.583Z",
+    "artistname": "WALK THE MOON",
+    "tracktitle": "Different Colors",
+  },
+  {
+    "date": "2015-08-21T04:17:56.459Z",
+    "artistname": "Alicia Keys Feat. Kendrick Lamar",
+    "tracktitle": "It's On Again",
+  },
+  {
+    "date": "2015-08-21T04:25:38.598Z",
+    "artistname": "The Neighbourhood",
+    "tracktitle": "Honest",
+  },
+  {
+    "date": "2015-08-21T19:41:01.849Z",
+    "artistname": "Demi Lovato",
+    "tracktitle": "Cool For The Summer",
+  },
+  {
+    "date": "2015-08-21T21:46:29.112Z",
+    "artistname": "ZZ Ward",
+    "tracktitle": "365 Days",
+  },
+  {
+    "date": "2015-08-22T21:22:50Z",
+    "artistname": "David Guetta Feat. Nicki Minaj",
+    "tracktitle": "Turn Me On",
+  },
+  {
+    "date": "2015-08-22T22:04:22.759Z",
+    "artistname": "Flo Rida Feat. Robin Thicke & Verdine White",
+    "tracktitle": "I Don't Like It, I Love It",
+  },
+  {
+    "date": "2015-08-23T00:38:19.750Z",
+    "artistname": "Major Lazer Feat. Ellie Goulding & Tarrus Riley",
+    "tracktitle": "Powerful (Michael Calfan Remix)",
+  },
+  {
+    "date": "2015-08-23T03:57:30.469Z",
+    "artistname": "Jerry Ropero",
+    "tracktitle": "Berimbau (Original Mix)",
+  },
+  {
+    "date": "2015-08-25T20:36:11.869Z",
+    "artistname": "Nena",
+    "tracktitle": "99 Luftballons",
+  },
+  {
+    "date": "2015-08-25T22:56:47.353Z",
+    "artistname": "Digable Planets",
+    "tracktitle": "Rebirth Of Slick (Cool Like Dat)",
+  },
+  {
+    "date": "2015-08-26T00:12:45.301Z",
+    "artistname": "Baby Bash",
+    "tracktitle": "Suga Suga",
+  },
+  {
+    "date": "2015-08-27T19:48:49.697Z",
+    "artistname": "N.W.A.",
+    "tracktitle": "Express Yourself",
+  },
+  {
+    "date": "2015-08-28T19:30:27.825Z",
+    "artistname": "The Black Keys",
+    "tracktitle": "Little Black Submarines",
+  },
+  {
+    "date": "2015-08-28T19:35:34.913Z",
+    "artistname": "Juvenile, Soulja Slim",
+    "tracktitle": "Slow Motion",
+  },
+  {
+    "date": "2015-08-29T00:59:25.507Z",
+    "artistname": "Wale Feat. Miguel",
+    "tracktitle": "Lotus Flower Bomb",
+  },
+  {
+    "date": "2015-09-01T19:28:11.789Z",
+    "artistname": "Train",
+    "tracktitle": "Drive By",
+  },
+  {
+    "date": "2015-09-03T14:36:40.799Z",
+    "artistname": "Stevie Nicks",
+    "tracktitle": "Edge Of Seventeen",
+  },
+  {
+    "date": "2015-09-03T14:37:29.954Z",
+    "artistname": "Sublime",
+    "tracktitle": "Santeria",
+  },
+  {
+    "date": "2015-09-04T19:42:50.675Z",
+    "artistname": "The All-American Rejects",
+    "tracktitle": "Gives You Hell",
+  },
+  {
+    "date": "2015-09-04T19:48:14.906Z",
+    "artistname": "Lupe Fiasco Feat. Matthew Santos",
+    "tracktitle": "Superstar",
+  },
+  {
+    "date": "2015-09-05T04:13:40.867Z",
+    "artistname": "Blu Cantrell",
+    "tracktitle": "Hit 'Em Up Style (Oops!)",
+  },
+  {
+    "date": "2015-09-05T04:18:10.980Z",
+    "artistname": "Gnarls Barkley",
+    "tracktitle": "Crazy",
+  },
+  {
+    "date": "2015-09-05T04:26:06.696Z",
+    "artistname": "Gym Class Heroes Feat. Patrick Stump",
+    "tracktitle": "Cupid's Chokehold",
+  },
+  {
+    "date": "2015-09-05T22:52:18.228Z",
+    "artistname": "JAY Z",
+    "tracktitle": "Big Pimpin'",
+  },
+  {
+    "date": "2015-09-05T22:54:48.926Z",
+    "artistname": "Ginuwine",
+    "tracktitle": "Pony",
+  },
+  {
+    "date": "2015-09-07T17:27:57.717Z",
+    "artistname": "Genesis",
+    "tracktitle": "Land Of Confusion",
+  },
+  {
+    "date": "2015-09-07T23:42:11.039Z",
+    "artistname": "Tanto Metro & Devonte",
+    "tracktitle": "Everyone Falls In Love",
+  },
+  {
+    "date": "2015-09-08T14:59:09.181Z",
+    "artistname": "One Direction",
+    "tracktitle": "Drag Me Down",
+  },
+  {
+    "date": "2015-09-09T04:14:07.596Z",
+    "artistname": "Eve",
+    "tracktitle": "Gotta Man",
+  },
+  {
+    "date": "2015-09-09T12:57:59.543Z",
+    "artistname": "Tom Petty & The Heartbreakers",
+    "tracktitle": "Don't Come Around Here No More",
+  },
+  {
+    "date": "2015-09-11T18:29:40.526Z",
+    "artistname": "Beck",
+    "tracktitle": "Dreams",
+  },
+  {
+    "date": "2015-09-11T18:34:52.581Z",
+    "artistname": "System Of A Down",
+    "tracktitle": "Toxicity",
+  },
+  {
+    "date": "2015-09-11T18:37:11.164Z",
+    "artistname": "X Ambassadors",
+    "tracktitle": "Renegades",
+  },
+  {
+    "date": "2015-09-11T19:34:19.676Z",
+    "artistname": "Cake",
+    "tracktitle": "Short Skirt/Long Jacket",
+  },
+  {
+    "date": "2015-09-12T01:25:21.106Z",
+    "artistname": "Meek Mill Feat. Chris Brown & Nicki Minaj",
+    "tracktitle": "All Eyes On You",
+  },
+  {
+    "date": "2015-09-12T04:31:17.727Z",
+    "artistname": "Sublime",
+    "tracktitle": "Santeria",
+  },
+  {
+    "date": "2015-09-12T14:05:55.961Z",
+    "artistname": "Macklemore & Ryan Lewis Feat. Eric Nally & Melle Mel & Kool Moe Dee & Grandmaster Caz",
+    "tracktitle": "Downtown",
+  },
+  {
+    "date": "2015-09-12T14:10:48.246Z",
+    "artistname": "Jay-Z",
+    "tracktitle": "Izzo (H.O.V.A.)",
+  },
+  {
+    "date": "2015-09-12T14:14:59.519Z",
+    "artistname": "DeJ Loaf Feat. Big Sean",
+    "tracktitle": "Back Up",
+  },
+  {
+    "date": "2015-09-12T19:35:01.286Z",
+    "artistname": "Lenny Kravitz",
+    "tracktitle": "American Woman",
+  },
+  {
+    "date": "2015-09-12T19:44:21.518Z",
+    "artistname": "Pink Floyd",
+    "tracktitle": "Another Brick In The Wall (Part 2)",
+  },
+  {
+    "date": "2015-09-12T19:57:27.010Z",
+    "artistname": "Aerosmith",
+    "tracktitle": "Dream On",
+  },
+  {
+    "date": "2015-09-12T22:33:31.184Z",
+    "artistname": "Coldplay",
+    "tracktitle": "Viva La Vida",
+  },
+  {
+    "date": "2015-09-13T19:37:32.209Z",
+    "artistname": "Tracy Chapman",
+    "tracktitle": "Fast Car",
+  },
+  {
+    "date": "2015-09-14T20:07:05.418Z",
+    "artistname": "Jidenna Feat. Kendrick Lamar",
+    "tracktitle": "Classic Man (Remix)",
+  },
+  {
+    "date": "2015-09-15T20:35:30.217Z",
+    "artistname": "INXS",
+    "tracktitle": "Need You Tonight",
+  },
+  {
+    "date": "2015-09-15T22:49:08.546Z",
+    "artistname": "J. Balvin Feat. Nicky Jam & French Montana",
+    "tracktitle": "Ay Vamos",
+  },
+  {
+    "date": "2015-09-17T02:45:22.410Z",
+    "artistname": "Reepublic Feat. T-Elle",
+    "tracktitle": "Turn Off The Light",
+  },
+  {
+    "date": "2015-09-18T22:13:01.318Z",
+    "artistname": "Fatman Scoop",
+    "tracktitle": "Be Faithful",
+  },
+  {
+    "date": "2015-09-18T22:13:10.839Z",
+    "artistname": "Tupac & Too Short",
+    "tracktitle": "Whistle (Explicit)",
+  },
+  {
+    "date": "2015-09-19T00:40:50.349Z",
+    "artistname": "K Camp",
+    "tracktitle": "Comfortable",
+  },
+  {
+    "date": "2015-09-19T17:09:17.954Z",
+    "artistname": "Rae Sremmurd",
+    "tracktitle": "This Could Be Us",
+  },
+  {
+    "date": "2015-09-20T18:48:16.673Z",
+    "artistname": "DJ Chose Feat. MC Beezy",
+    "tracktitle": "Everywhere I Go",
+  },
+  {
+    "date": "2015-09-20T19:18:50.671Z",
+    "artistname": "Trey Songz",
+    "tracktitle": "Foreign",
+  },
+  {
+    "date": "2015-09-20T19:24:04.287Z",
+    "artistname": "Jeremih Feat. J. Cole",
+    "tracktitle": "Planes",
+  },
+  {
+    "date": "2015-09-21T04:20:21.927Z",
+    "artistname": "Mike Jones Feat. Slim Thug & Paul Wall",
+    "tracktitle": "Still Tippin' (Amended Version)",
+  },
+  {
+    "date": "2015-09-21T12:46:48.246Z",
+    "artistname": "UGK (Underground Kingz)",
+    "tracktitle": "One Day",
+  },
+  {
+    "date": "2015-09-25T00:23:59.674Z",
+    "artistname": "Elle King",
+    "tracktitle": "Ex's & Oh's",
+  },
+  {
+    "date": "2015-09-25T03:00:06.872Z",
+    "artistname": "SPADA & Elen Levon",
+    "tracktitle": "Cool Enough",
+  },
+  {
+    "date": "2015-09-25T23:18:27.366Z",
+    "artistname": "MC Lyte",
+    "tracktitle": "Cold Rock A Party (Bad Boy Remix)",
+  },
+  {
+    "date": "2015-09-26T00:22:56.004Z",
+    "artistname": "Nick Jonas",
+    "tracktitle": "Levels",
+  },
+  {
+    "date": "2015-09-26T16:43:28.084Z",
+    "artistname": "A Great Big World Feat. Futuristic",
+    "tracktitle": "Hold Each Other",
+  },
+  {
+    "date": "2015-09-26T23:42:18.889Z",
+    "artistname": "Paull Wall & Chamillionaire",
+    "tracktitle": "N Luv Wit My Money",
+  },
+  {
+    "date": "2015-09-27T04:46:43.524Z",
+    "artistname": "Pitbull Feat. Ke$ha",
+    "tracktitle": "Timber (Panic City Remix)",
+  },
+  {
+    "date": "2015-09-27T04:52:41.197Z",
+    "artistname": "Zedd Feat. Foxes",
+    "tracktitle": "Clarity",
+  },
+  {
+    "date": "2015-09-27T15:35:49.012Z",
+    "artistname": "Ice Cube",
+    "tracktitle": "Check Yo Self (Remix)",
+  },
+  {
+    "date": "2015-09-28T04:03:20.269Z",
+    "artistname": "Kansas",
+    "tracktitle": "Carry On Wayward Son",
+  },
+  {
+    "date": "2015-09-28T19:59:49.799Z",
+    "artistname": "Alessia Cara",
+    "tracktitle": "Here",
+  },
+  {
+    "date": "2015-10-01T23:15:11.810Z",
+    "artistname": "Bryson Tiller",
+    "tracktitle": "Don't",
+  },
+  {
+    "date": "2015-10-02T19:25:55.735Z",
+    "artistname": "Selena Gomez",
+    "tracktitle": "Same Old Love",
+  },
+  {
+    "date": "2015-10-05T21:09:14.864Z",
+    "artistname": "Will Smith",
+    "tracktitle": "Gettin' Jiggy Wit It",
+  },
+  {
+    "date": "2015-10-09T02:11:33.571Z",
+    "artistname": "Major Lazer Feat. MØ & DJ Snake",
+    "tracktitle": "Lean On (Jonas Aden Remix)",
+  },
+  {
+    "date": "2015-10-09T19:27:49.416Z",
+    "artistname": "The Beatles",
+    "tracktitle": "Norwegian Wood (This Bird Has Flown)",
+  },
+  {
+    "date": "2015-10-10T14:09:42.604Z",
+    "artistname": "Selena Gomez",
+    "tracktitle": "Same Old Love",
+  },
+  {
+    "date": "2015-10-11T15:02:27.621Z",
+    "artistname": "The Animals",
+    "tracktitle": "House Of The Rising Sun",
+  },
+  {
+    "date": "2015-10-11T18:13:22.216Z",
+    "artistname": "Nicki Minaj Feat. Chris Brown",
+    "tracktitle": "Right By My Side",
+  },
+  {
+    "date": "2015-10-11T18:21:46.461Z",
+    "artistname": "K Camp",
+    "tracktitle": "Lil Bit",
+  },
+  {
+    "date": "2015-10-12T12:22:43.593Z",
+    "artistname": "a-ha",
+    "tracktitle": "Take On Me",
+  },
+  {
+    "date": "2015-10-14T12:21:33.198Z",
+    "artistname": "Sara Bareilles",
+    "tracktitle": "Brave",
+  },
+  {
+    "date": "2015-10-16T04:06:49.949Z",
+    "artistname": "Frank Ocean",
+    "tracktitle": "Thinkin Bout You",
+  },
+  {
+    "date": "2015-10-17T15:21:41.637Z",
+    "artistname": "Skee-Lo",
+    "tracktitle": "I Wish",
+  },
+  {
+    "date": "2015-10-17T17:33:40.888Z",
+    "artistname": "JAY Z Feat. Rick Ross",
+    "tracktitle": "F**kwithmeyouknowigotit",
+  },
+  {
+    "date": "2015-10-19T20:04:36.482Z",
+    "artistname": "Culture Club",
+    "tracktitle": "Do You Really Want To Hurt Me",
+  },
+  {
+    "date": "2015-10-19T21:50:48.576Z",
+    "artistname": "Andrew McMahon In The Wilderness",
+    "tracktitle": "Cecilia And The Satellite",
+  },
+  {
+    "date": "2015-10-20T03:06:42.030Z",
+    "artistname": "By Mood Media",
+    "tracktitle": "Hot FM Radio",
+  },
+  {
+    "date": "2015-10-20T16:37:30.841Z",
+    "artistname": "Miley Cyrus",
+    "tracktitle": "Party In The U.S.A.",
+  },
+  {
+    "date": "2015-10-20T16:51:06.513Z",
+    "artistname": "Billy Joel",
+    "tracktitle": "Only The Good Die Young",
+  },
+  {
+    "date": "2015-10-23T04:05:29.510Z",
+    "artistname": "Usher",
+    "tracktitle": "Climax",
+  },
+  {
+    "date": "2015-10-24T03:38:13.675Z",
+    "artistname": "Major Lazer Feat. MØ & DJ Snake",
+    "tracktitle": "Lean On (Tiësto & Moti Remix)",
+  },
+  {
+    "date": "2015-10-25T04:35:17.111Z",
+    "artistname": "Major Lazer Feat. Ellie Goulding & Tarrus Riley",
+    "tracktitle": "Powerful",
+  },
+  {
+    "date": "2015-10-25T14:01:59.111Z",
+    "artistname": "UGK (Underground Kingz) Feat. OutKast",
+    "tracktitle": "Int'l Players Anthem (Explicit;I Choose You)",
+  },
+  {
+    "date": "2015-10-25T20:36:17.853Z",
+    "artistname": "Ol' Dirty Bastard Feat. Kelis",
+    "tracktitle": "Got Your Money",
+  },
+  {
+    "date": "2015-11-01T21:40:01.320Z",
+    "artistname": "Billy Joel",
+    "tracktitle": "Only The Good Die Young",
+  },
+  {
+    "date": "2015-11-01T21:53:47.314Z",
+    "artistname": "Travi$ Scott",
+    "tracktitle": "Antidote",
+  },
+  {
+    "date": "2015-11-03T17:55:21.420Z",
+    "artistname": "Madonna Feat. LMFAO & Nicki Minaj",
+    "tracktitle": "Give Me All Your Luvin' (Party Rock Remix)",
+  },
+  {
+    "date": "2015-11-07T04:56:34.757Z",
+    "artistname": "Waxahatchee",
+    "tracktitle": "Air",
+  },
+  {
+    "date": "2015-11-08T05:54:25.414Z",
+    "artistname": "Led Zeppelin",
+    "tracktitle": "Stairway To Heaven",
+  },
+  {
+    "date": "2015-11-08T12:30:32.490Z",
+    "artistname": "System Of A Down",
+    "tracktitle": "Aerials",
+  },
+  {
+    "date": "2015-11-08T12:35:52.116Z",
+    "artistname": "Shinedown",
+    "tracktitle": "Cut The Cord",
+  },
+  {
+    "date": "2015-11-11T00:07:52.370Z",
+    "artistname": "Tom Petty",
+    "tracktitle": "Free Fallin'",
+  },
+  {
+    "date": "2015-11-11T00:22:18.298Z",
+    "artistname": "Taio Cruz",
+    "tracktitle": "Dynamite",
+  },
+  {
+    "date": "2015-11-11T00:26:07.804Z",
+    "artistname": "Halsey",
+    "tracktitle": "New Americana",
+  },
+  {
+    "date": "2015-11-14T03:21:25.667Z",
+    "artistname": "Tanya Tucker",
+    "tracktitle": "Strong Enough To Bend",
+  },
+  {
+    "date": "2015-11-14T05:20:04.012Z",
+    "artistname": "Jeff Morena",
+    "tracktitle": "Are You That Somebody (Explicit;Xtc Remix)",
+  },
+  {
+    "date": "2015-11-14T05:24:24.662Z",
+    "artistname": "Dougie F Feat. Pitbull & 40 Cobras",
+    "tracktitle": "On Purpose",
+  },
+  {
+    "date": "2015-11-14T06:41:37.871Z",
+    "artistname": "Snoop Doggy Dogg",
+    "tracktitle": "Gz And Hustlas",
+  },
+  {
+    "date": "2015-11-15T05:23:55.258Z",
+    "artistname": "Britney Spears",
+    "tracktitle": "Toxic",
+  },
+  {
+    "date": "2015-11-18T02:45:03.591Z",
+    "artistname": "Bangles",
+    "tracktitle": "Eternal Flame",
+  },
+  {
+    "date": "2015-11-18T20:50:46.887Z",
+    "artistname": "The Chainsmokers Feat. ROZES",
+    "tracktitle": "Roses",
+  },
+  {
+    "date": "2015-11-18T20:59:11.252Z",
+    "artistname": "Ke$ha",
+    "tracktitle": "Tik Tok",
+  },
+  {
+    "date": "2015-11-19T20:36:20.888Z",
+    "artistname": "Everlast",
+    "tracktitle": "What It's Like",
+  },
+  {
+    "date": "2015-11-20T20:29:11.504Z",
+    "artistname": "Hozier",
+    "tracktitle": "Someone New",
+  },
+  {
+    "date": "2015-11-20T20:47:08.589Z",
+    "artistname": "Whitesnake",
+    "tracktitle": "Here I Go Again",
+  },
+  {
+    "date": "2015-11-20T20:49:22.412Z",
+    "artistname": "Zedd Feat. Jon Bellion",
+    "tracktitle": "Beautiful Now",
+  },
+  {
+    "date": "2015-11-21T06:18:49.312Z",
+    "artistname": "Quintino",
+    "tracktitle": "Devotion",
+  },
+  {
+    "date": "2015-11-21T17:24:50.915Z",
+    "artistname": "Daya",
+    "tracktitle": "Hide Away",
+  },
+  {
+    "date": "2015-11-21T20:57:05.416Z",
+    "artistname": "Aaliyah",
+    "tracktitle": "Miss You",
+  },
+  {
+    "date": "2015-11-22T05:21:39.415Z",
+    "artistname": "Jay Z",
+    "tracktitle": "I Just Wanna Love U (Give It To Me)",
+  },
+  {
+    "date": "2015-11-22T05:37:16.441Z",
+    "artistname": "Madonna",
+    "tracktitle": "Vogue",
+  },
+  {
+    "date": "2015-11-22T05:38:27.829Z",
+    "artistname": "Smash Mouth",
+    "tracktitle": "All Star",
+  },
+  {
+    "date": "2015-11-23T13:08:53.047Z",
+    "artistname": "The Fugees",
+    "tracktitle": "Ready Or Not (Kriswontwo Remix)",
+  },
+  {
+    "date": "2015-11-23T13:25:48.174Z",
+    "artistname": "Rudimental Feat. Ed Sheeran",
+    "tracktitle": "Lay It All On Me",
+  },
+  {
+    "date": "2015-11-23T13:27:39.975Z",
+    "artistname": "The Police",
+    "tracktitle": "Message In A Bottle (new classic rock mix)",
+  },
+  {
+    "date": "2015-11-23T21:14:05.241Z",
+    "artistname": "Rich Homie Quan",
+    "tracktitle": "Flex (Ooh, Ooh, Ooh)",
+  },
+  {
+    "date": "2015-11-23T21:15:15.134Z",
+    "artistname": "Kelly Rowland Feat. Busta Rhymes & Trey Songz & Fabolous",
+    "tracktitle": "Motivation (Remix)",
+  },
+  {
+    "date": "2015-11-24T15:23:19.225Z",
+    "artistname": "Elmo & Patsy",
+    "tracktitle": "Grandma Got Run Over By A Reindeer",
+  },
+  {
+    "date": "2015-11-24T20:30:19.988Z",
+    "artistname": "Demi Lovato",
+    "tracktitle": "Confident",
+  },
+  {
+    "date": "2015-11-24T20:40:13.628Z",
+    "artistname": "P. Diddy Feat. Usher & Loon",
+    "tracktitle": "I Need A Girl (Part One)",
+  },
+  {
+    "date": "2015-11-26T20:49:41.091Z",
+    "artistname": "Robert DeLong",
+    "tracktitle": "Long Way Down",
+  },
+  {
+    "date": "2015-11-26T23:12:36.263Z",
+    "artistname": "Asa",
+    "tracktitle": "Be My Man",
+  },
+  {
+    "date": "2015-11-27T20:41:54.458Z",
+    "artistname": "Green Day",
+    "tracktitle": "Boulevard Of Broken Dreams",
+  },
+  {
+    "date": "2015-11-28T22:24:01.410Z",
+    "artistname": "Slim Thug Feat. Joel Osteen",
+    "tracktitle": "Chuuch",
+  },
+  {
+    "date": "2015-11-29T05:26:22.557Z",
+    "artistname": "Amy Grant",
+    "tracktitle": "Sleigh Ride",
+  },
+  {
+    "date": "2015-11-30T23:29:03.162Z",
+    "artistname": "Colonel Loud Feat. Ric Barrino & Young Dolph",
+    "tracktitle": "California",
+  },
+  {
+    "date": "2015-12-01T16:59:52.419Z",
+    "artistname": "Aaliyah",
+    "tracktitle": "Miss You",
+  },
+  {
+    "date": "2015-12-01T17:22:10.268Z",
+    "artistname": "Sarah McLachlan",
+    "tracktitle": "Happy Xmas (War Is Over;Tom Lord-Alge Radio Mix)",
+  },
+  {
+    "date": "2015-12-01T17:27:17.038Z",
+    "artistname": "J. Cole",
+    "tracktitle": "No Role Modelz",
+  },
+  {
+    "date": "2015-12-03T20:45:08.787Z",
+    "artistname": "Newsboys",
+    "tracktitle": "All I Want For Christmas Is You",
+  },
+  {
+    "date": "2015-12-05T05:58:59.345Z",
+    "artistname": "Salt-N-Pepa",
+    "tracktitle": "Push It",
+  },
+  {
+    "date": "2015-12-06T05:34:58.543Z",
+    "artistname": "Missy Elliott",
+    "tracktitle": "All N My Grill (DJ Ironik)",
+  },
+  {
+    "date": "2015-12-07T05:21:56.701Z",
+    "artistname": "Avicii",
+    "tracktitle": "The Days",
+  },
+  {
+    "date": "2015-12-08T19:46:21.590Z",
+    "artistname": "The Beatles",
+    "tracktitle": "Strawberry Fields Forever",
+  }
+]

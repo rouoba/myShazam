@@ -7,7 +7,8 @@
 
 import Foundation
 
-struct Song {
+struct Song: Decodable {
+    var date: String
     var artistname: String
     var tracktitle: String
 }
