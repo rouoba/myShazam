@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A7270EA72542556200602194 /* SongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7270EA52542556200602194 /* SongTableViewCell.swift */; };
+		A7270EA82542556200602194 /* SongTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7270EA62542556200602194 /* SongTableViewCell.xib */; };
 		A79248FD25423079006B198C /* songList.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A79248FC25423079006B198C /* songList.rtf */; };
 		A7924902254235E7006B198C /* SongList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7924901254235E7006B198C /* SongList.swift */; };
 		A792490725423DA5006B198C /* songsList.json in Resources */ = {isa = PBXBuildFile; fileRef = A792490625423DA5006B198C /* songsList.json */; };
@@ -41,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A7270EA52542556200602194 /* SongTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTableViewCell.swift; sourceTree = "<group>"; };
+		A7270EA62542556200602194 /* SongTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SongTableViewCell.xib; sourceTree = "<group>"; };
 		A79248FC25423079006B198C /* songList.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = songList.rtf; sourceTree = "<group>"; };
 		A7924901254235E7006B198C /* SongList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongList.swift; sourceTree = "<group>"; };
 		A792490625423DA5006B198C /* songsList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = songsList.json; sourceTree = "<group>"; };
@@ -155,6 +159,8 @@
 				A7F6A93E25412295003FFCA2 /* Main.storyboard */,
 				A7F6A94425412298003FFCA2 /* Assets.xcassets */,
 				A7F6A94625412298003FFCA2 /* LaunchScreen.storyboard */,
+				A7270EA52542556200602194 /* SongTableViewCell.swift */,
+				A7270EA62542556200602194 /* SongTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -281,6 +287,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7270EA82542556200602194 /* SongTableViewCell.xib in Resources */,
 				A7F6A94825412298003FFCA2 /* LaunchScreen.storyboard in Resources */,
 				A79248FD25423079006B198C /* songList.rtf in Resources */,
 				A7F6A94525412298003FFCA2 /* Assets.xcassets in Resources */,
@@ -314,6 +321,7 @@
 				A7F6A93D25412295003FFCA2 /* HomeViewController.swift in Sources */,
 				A7924902254235E7006B198C /* SongList.swift in Sources */,
 				A7F6A93925412295003FFCA2 /* AppDelegate.swift in Sources */,
+				A7270EA72542556200602194 /* SongTableViewCell.swift in Sources */,
 				A7F6A93B25412295003FFCA2 /* SceneDelegate.swift in Sources */,
 				A7F6A94325412295003FFCA2 /* myShazam.xcdatamodeld in Sources */,
 				A7F6A97E25412C75003FFCA2 /* ViewCell.swift in Sources */,
@@ -493,13 +501,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = myShazam/Utilities/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rene.myShazam;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reneO.myShazam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -512,13 +521,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = myShazam/Utilities/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rene.myShazam;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reneO.myShazam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

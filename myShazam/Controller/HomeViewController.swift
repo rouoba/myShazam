@@ -17,8 +17,9 @@ class HomeViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        loadSongsList()
         
+        loadSongsList()
+        self.myTableView.register(UINib(nibName: "SongTableViewCell", bundle: nil), forCellReuseIdentifier: "cell")
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -29,10 +30,11 @@ class HomeViewController: UITableViewController {
         tableView.deselectRow(at: indexPath, animated: true)
     }
     
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> ViewCell {
-        guard let cell = myTableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as? ViewCell else {return ViewCell()}
-        cell.artist.text = songsList[indexPath.row].artistname
-        cell.songTitle.text = songsList[indexPath.row].tracktitle
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> SongTableViewCell {
+        guard let cell = myTableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as? SongTableViewCell else {return SongTableViewCell()}
+        cell.dateLabel.text = songsList[indexPath.row].date
+        cell.artistLabel.text = songsList[indexPath.row].artistname
+        cell.titleLabel.text = songsList[indexPath.row].tracktitle
         if indexPath.row % 2 == 0 {
             cell.backgroundColor = UIColor.systemTeal
         }
