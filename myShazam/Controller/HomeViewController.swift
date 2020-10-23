@@ -11,10 +11,12 @@ class HomeViewController: UITableViewController {
 
     
     var songsList: [Song] = []
+//    var delegate: DetailViewController?
     
     @IBOutlet var myTableView: UITableView!
     
     
+    //Overrides
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -27,7 +29,7 @@ class HomeViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        tableView.deselectRow(at: indexPath, animated: true)
+        performSegue(withIdentifier: "segueToDetailView", sender: self)
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> SongTableViewCell {
@@ -45,6 +47,13 @@ class HomeViewController: UITableViewController {
         return 75.0
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        let indexPath = sender as? IndexPath
+        guard let vc = segue.destination as? DetailViewController else { return }
+        //read data from cell and get ready to load it into the labels
+    }
+    
+    //Helper functions
     func loadSongsList() {
         if let filepath = Bundle.main.path(forResource: "songsList", ofType: "json") {
             do {
