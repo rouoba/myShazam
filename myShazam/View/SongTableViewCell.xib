@@ -21,13 +21,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TyG-0N-xyj">
-                                <rect key="frame" x="10" y="0.0" width="97" height="44"/>
+                                <rect key="frame" x="0.0" y="0.0" width="96" height="44"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="wBI-bj-iqZ">
-                                <rect key="frame" x="117" y="0.0" width="193" height="44"/>
+                                <rect key="frame" x="106" y="0.0" width="214" height="44"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Artist" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ee-g3-VPs">
                                         <rect key="frame" x="0.0" y="0.0" width="41.5" height="11.5"/>
@@ -51,11 +51,7 @@
                             </stackView>
                         </subviews>
                         <constraints>
-                            <constraint firstItem="TyG-0N-xyj" firstAttribute="width" secondItem="uZ9-Rn-CGc" secondAttribute="width" multiplier="0.303125" id="2xk-aZ-O0M"/>
-                            <constraint firstAttribute="trailing" secondItem="wBI-bj-iqZ" secondAttribute="trailing" constant="10" id="4Md-zx-GQS"/>
-                            <constraint firstItem="TyG-0N-xyj" firstAttribute="leading" secondItem="uZ9-Rn-CGc" secondAttribute="leading" constant="10" id="8LA-qA-J0l"/>
-                            <constraint firstAttribute="trailing" secondItem="wBI-bj-iqZ" secondAttribute="trailing" constant="10" id="Bj0-eM-Jxp"/>
-                            <constraint firstItem="TyG-0N-xyj" firstAttribute="leading" secondItem="uZ9-Rn-CGc" secondAttribute="leading" constant="10" id="fMR-8z-Ua0"/>
+                            <constraint firstItem="TyG-0N-xyj" firstAttribute="width" secondItem="uZ9-Rn-CGc" secondAttribute="width" multiplier="0.3" id="tOn-2v-hAX"/>
                         </constraints>
                     </stackView>
                 </subviews>
