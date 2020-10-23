@@ -10,7 +10,6 @@
 		A7270EA72542556200602194 /* SongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7270EA52542556200602194 /* SongTableViewCell.swift */; };
 		A7270EA82542556200602194 /* SongTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7270EA62542556200602194 /* SongTableViewCell.xib */; };
 		A7270EB6254282E500602194 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7270EB5254282E500602194 /* DetailViewController.swift */; };
-		A79248FD25423079006B198C /* songList.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A79248FC25423079006B198C /* songList.rtf */; };
 		A7924902254235E7006B198C /* SongList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7924901254235E7006B198C /* SongList.swift */; };
 		A792490725423DA5006B198C /* songsList.json in Resources */ = {isa = PBXBuildFile; fileRef = A792490625423DA5006B198C /* songsList.json */; };
 		A7F6A93925412295003FFCA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F6A93825412295003FFCA2 /* AppDelegate.swift */; };
@@ -47,7 +46,6 @@
 		A7270EA52542556200602194 /* SongTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTableViewCell.swift; sourceTree = "<group>"; };
 		A7270EA62542556200602194 /* SongTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SongTableViewCell.xib; sourceTree = "<group>"; };
 		A7270EB5254282E500602194 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		A79248FC25423079006B198C /* songList.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = songList.rtf; sourceTree = "<group>"; };
 		A7924901254235E7006B198C /* SongList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongList.swift; sourceTree = "<group>"; };
 		A792490625423DA5006B198C /* songsList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = songsList.json; sourceTree = "<group>"; };
 		A7F6A93525412295003FFCA2 /* myShazam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myShazam.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,13 +115,11 @@
 		A7F6A93725412295003FFCA2 /* myShazam */ = {
 			isa = PBXGroup;
 			children = (
-				A79248FC25423079006B198C /* songList.rtf */,
 				A7F6A98225412D6F003FFCA2 /* Model */,
 				A7F6A976254122D9003FFCA2 /* Utilities */,
 				A7F6A971254122B7003FFCA2 /* Controller */,
 				A7F6A975254122C4003FFCA2 /* View */,
 				A7F6A94125412295003FFCA2 /* myShazam.xcdatamodeld */,
-				A792490625423DA5006B198C /* songsList.json */,
 			);
 			path = myShazam;
 			sourceTree = "<group>";
@@ -183,6 +179,7 @@
 			children = (
 				A7F6A98325412D81003FFCA2 /* Song.swift */,
 				A7924901254235E7006B198C /* SongList.swift */,
+				A792490625423DA5006B198C /* songsList.json */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -292,7 +289,6 @@
 			files = (
 				A7270EA82542556200602194 /* SongTableViewCell.xib in Resources */,
 				A7F6A94825412298003FFCA2 /* LaunchScreen.storyboard in Resources */,
-				A79248FD25423079006B198C /* songList.rtf in Resources */,
 				A7F6A94525412298003FFCA2 /* Assets.xcassets in Resources */,
 				A7F6A94025412295003FFCA2 /* Main.storyboard in Resources */,
 				A792490725423DA5006B198C /* songsList.json in Resources */,

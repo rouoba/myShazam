@@ -69,8 +69,9 @@ class HomeViewController: UITableViewController {
     }
     
     func copySongs(from list1: [Song], to list2: inout [Song]) {
-        for index in 0...list1.count-1 {
-            list2.append(list1[index])
+        let numberOfSongs = list1.count
+        for index in 0...numberOfSongs-1 {
+            list2.append(list1[numberOfSongs - 1 - index])
         }
     }
 }
