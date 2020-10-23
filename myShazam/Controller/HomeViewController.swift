@@ -11,7 +11,6 @@ class HomeViewController: UITableViewController {
 
     
     var songsList: [Song] = []
-//    var delegate: DetailViewController?
     
     @IBOutlet var myTableView: UITableView!
     
@@ -29,7 +28,7 @@ class HomeViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        performSegue(withIdentifier: "segueToDetailView", sender: self)
+        performSegue(withIdentifier: "segueToDetailView", sender: indexPath)
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> SongTableViewCell {
@@ -48,9 +47,10 @@ class HomeViewController: UITableViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        let indexPath = sender as? IndexPath
+        guard let indexPath = sender as? IndexPath else { return }
         guard let vc = segue.destination as? DetailViewController else { return }
-        //read data from cell and get ready to load it into the labels
+        
+        vc.song = songsList[indexPath.row]
     }
     
     //Helper functions

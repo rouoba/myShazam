@@ -9,6 +9,8 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
+    var song: Song?
+    
     @IBOutlet weak var albumArtImage: UIImageView!
     @IBOutlet weak var artistLabel: UILabel!
     @IBOutlet weak var titleLabel: UILabel!
@@ -18,7 +20,10 @@ class DetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        artistLabel.text = song?.artistname
+        titleLabel.text = song?.tracktitle
+        osNameLabel.text = song?.osname
+        dateLabel.text = song?.date
     }
     
 
