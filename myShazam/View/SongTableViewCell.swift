@@ -9,6 +9,9 @@ import UIKit
 
 class SongTableViewCell: UITableViewCell {
 
+    var delegate: DetailViewController?
+    var osIcon: UIImage?
+    
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var artistLabel: UILabel!
     @IBOutlet weak var titleLabel: UILabel!
