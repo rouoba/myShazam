@@ -33,12 +33,23 @@ class HomeViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> SongTableViewCell {
         guard let cell = myTableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as? SongTableViewCell else {return SongTableViewCell()}
-        cell.dateLabel.text = songsList[indexPath.row].date
-        cell.artistLabel.text = songsList[indexPath.row].artistname
-        cell.titleLabel.text = songsList[indexPath.row].tracktitle
-        if indexPath.row % 2 == 0 {
-            cell.backgroundColor = UIColor.systemTeal
-        }
+        
+        loadDataIn(cell, atPosition: indexPath.row)
+        
+//        let date = songsList[indexPath.row].date
+//        cell.dateLabel.text = String(date.prefix(10))
+//        cell.artistLabel.text = songsList[indexPath.row].artistname
+//        cell.titleLabel.text = songsList[indexPath.row].tracktitle
+//
+//        if songsList[indexPath.row].osname == "Android" {
+//            cell.osImage.image = UIImage(contentsOfFile: "android")
+//        } else if songsList[indexPath.row].osname == "IOS" {
+//            cell.osImage.image = UIImage(contentsOfFile: "apple")
+//        }
+//
+//        if indexPath.row % 2 == 0 {
+//            cell.backgroundColor = UIColor.systemTeal
+//        }
         return cell
     }
     
@@ -72,6 +83,26 @@ class HomeViewController: UITableViewController {
         let numberOfSongs = list1.count
         for index in 0...numberOfSongs-1 {
             list2.append(list1[numberOfSongs - 1 - index])
+        }
+    }
+    
+    func loadDataIn(_ cell: SongTableViewCell ,atPosition cellPosition: Int) {
+        let date = songsList[cellPosition].date
+        cell.dateLabel.text = String(date.prefix(10))
+        
+        cell.artistLabel.text = songsList[cellPosition].artistname
+        cell.titleLabel.text = songsList[cellPosition].tracktitle
+
+        if songsList[cellPosition].osname == "Android" {
+            cell.osImage.image = UIImage(named: "android")
+        } else if songsList[cellPosition].osname == "IOS" {
+            cell.osImage.image = UIImage(named: "apple")
+        } else {
+            cell.osImage.image = UIImage(named: "questionmark.circle")
+        }
+        
+        if cellPosition % 2 == 0 {
+            cell.backgroundColor = UIColor.systemTeal
         }
     }
 }

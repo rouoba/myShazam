@@ -20,14 +20,14 @@
                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="uZ9-Rn-CGc">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TyG-0N-xyj">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TyG-0N-xyj">
                                 <rect key="frame" x="0.0" y="0.0" width="96" height="44"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="wBI-bj-iqZ">
-                                <rect key="frame" x="106" y="0.0" width="214" height="44"/>
+                                <rect key="frame" x="106" y="0.0" width="172" height="44"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Artist" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ee-g3-VPs">
                                         <rect key="frame" x="0.0" y="0.0" width="41.5" height="11.5"/>
@@ -42,15 +42,19 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fmk-K2-7oO">
-                                        <rect key="frame" x="0.0" y="32.5" width="72.5" height="11.5"/>
+                                        <rect key="frame" x="0.0" y="32.5" width="50" height="11.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                             </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bns-mQ-cRG">
+                                <rect key="frame" x="288" y="0.0" width="32" height="44"/>
+                            </imageView>
                         </subviews>
                         <constraints>
+                            <constraint firstItem="bns-mQ-cRG" firstAttribute="width" secondItem="uZ9-Rn-CGc" secondAttribute="width" multiplier="0.1" id="8Og-Hk-xVO"/>
                             <constraint firstItem="TyG-0N-xyj" firstAttribute="width" secondItem="uZ9-Rn-CGc" secondAttribute="width" multiplier="0.3" id="tOn-2v-hAX"/>
                         </constraints>
                     </stackView>
@@ -66,6 +70,7 @@
             <connections>
                 <outlet property="artistLabel" destination="8ee-g3-VPs" id="KPH-ro-utH"/>
                 <outlet property="dateLabel" destination="TyG-0N-xyj" id="XdY-Iq-Zu9"/>
+                <outlet property="osImage" destination="bns-mQ-cRG" id="yMR-ix-Ls6"/>
                 <outlet property="osnameLabel" destination="Fmk-K2-7oO" id="m31-Lc-tXV"/>
                 <outlet property="titleLabel" destination="Jna-oZ-oIe" id="oLF-vN-Vlg"/>
             </connections>
