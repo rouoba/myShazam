@@ -10,11 +10,12 @@ import UIKit
 class DetailViewController: UIViewController {
 
     var song: Song?
+    var osIcon: UIImage?
     
     @IBOutlet weak var albumArtImage: UIImageView!
     @IBOutlet weak var artistLabel: UILabel!
     @IBOutlet weak var titleLabel: UILabel!
-    @IBOutlet weak var osNameLabel: UILabel!
+    @IBOutlet weak var osImage: UIImageView!
     @IBOutlet weak var dateLabel: UILabel!
     
     override func viewDidLoad() {
@@ -22,7 +23,7 @@ class DetailViewController: UIViewController {
 
         artistLabel.text = song?.artistname
         titleLabel.text = song?.tracktitle
-        osNameLabel.text = song?.osname
+        osImage.image = osIcon
         dateLabel.text = song?.date
     }
     

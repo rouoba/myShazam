@@ -23,46 +23,38 @@ class HomeViewController: UITableViewController {
         self.myTableView.register(UINib(nibName: "SongTableViewCell", bundle: nil), forCellReuseIdentifier: "cell")
     }
 
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return songsList.count
     }
 
+    
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         performSegue(withIdentifier: "segueToDetailView", sender: indexPath)
     }
+    
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> SongTableViewCell {
         guard let cell = myTableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as? SongTableViewCell else {return SongTableViewCell()}
         
         loadDataIn(cell, atPosition: indexPath.row)
-        
-//        let date = songsList[indexPath.row].date
-//        cell.dateLabel.text = String(date.prefix(10))
-//        cell.artistLabel.text = songsList[indexPath.row].artistname
-//        cell.titleLabel.text = songsList[indexPath.row].tracktitle
-//
-//        if songsList[indexPath.row].osname == "Android" {
-//            cell.osImage.image = UIImage(contentsOfFile: "android")
-//        } else if songsList[indexPath.row].osname == "IOS" {
-//            cell.osImage.image = UIImage(contentsOfFile: "apple")
-//        }
-//
-//        if indexPath.row % 2 == 0 {
-//            cell.backgroundColor = UIColor.systemTeal
-//        }
         return cell
     }
+    
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 75.0
     }
+    
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let indexPath = sender as? IndexPath else { return }
         guard let vc = segue.destination as? DetailViewController else { return }
         
         vc.song = songsList[indexPath.row]
+        //set osIcon property of vc here, from the cell 
     }
+    
     
     //Helper functions
     func loadSongsList() {
@@ -79,12 +71,14 @@ class HomeViewController: UITableViewController {
         }
     }
     
+    
     func copySongs(from list1: [Song], to list2: inout [Song]) {
         let numberOfSongs = list1.count
         for index in 0...numberOfSongs-1 {
             list2.append(list1[numberOfSongs - 1 - index])
         }
     }
+    
     
     func loadDataIn(_ cell: SongTableViewCell ,atPosition cellPosition: Int) {
         let date = songsList[cellPosition].date

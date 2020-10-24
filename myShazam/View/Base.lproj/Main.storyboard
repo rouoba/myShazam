@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Home View Controller-->
+        <!--Tags list-->
         <scene sceneID="8zg-I1-MP8">
             <objects>
                 <tableViewController id="j45-Uv-6AN" customClass="HomeViewController" customModule="myShazam" customModuleProvider="target" sceneMemberID="viewController">
@@ -22,7 +22,7 @@
                             <outlet property="delegate" destination="j45-Uv-6AN" id="08M-2K-sTt"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="zBq-JR-fqZ"/>
+                    <navigationItem key="navigationItem" title="Tags list" id="zBq-JR-fqZ"/>
                     <connections>
                         <outlet property="myTableView" destination="LI5-cG-Lsb" id="tjR-bV-ikb"/>
                         <segue destination="3pd-mn-MzT" kind="show" identifier="segueToDetailView" id="Zw5-kg-TTC"/>
@@ -32,7 +32,7 @@
             </objects>
             <point key="canvasLocation" x="2136.231884057971" y="96.428571428571431"/>
         </scene>
-        <!--Detail View Controller-->
+        <!--Tag details-->
         <scene sceneID="Qyt-pD-7tj">
             <objects>
                 <viewController id="3pd-mn-MzT" customClass="DetailViewController" customModule="myShazam" customModuleProvider="target" sceneMemberID="viewController">
@@ -46,29 +46,26 @@
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aSN-3y-fLQ">
                                         <rect key="frame" x="0.0" y="0.0" width="394" height="336.66666666666669"/>
                                     </imageView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="FTu-oO-7EF">
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="FTu-oO-7EF">
                                         <rect key="frame" x="0.0" y="417.66666666666663" width="394" height="336.33333333333337"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Artist" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dzn-oS-ckj">
-                                                <rect key="frame" x="0.0" y="0.0" width="41.333333333333336" height="76.333333333333329"/>
+                                                <rect key="frame" x="176.33333333333334" y="0.0" width="41.333333333333343" height="76.333333333333329"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pQQ-22-WiO">
-                                                <rect key="frame" x="0.0" y="86.333333333333371" width="33" height="76.666666666666686"/>
+                                                <rect key="frame" x="180.66666666666666" y="86.333333333333371" width="33" height="76.666666666666686"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Os Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kZS-iq-fpx">
-                                                <rect key="frame" x="0.0" y="173" width="70.333333333333329" height="76.666666666666686"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yQk-Om-PLN">
+                                                <rect key="frame" x="77" y="173" width="240" height="76.666666666666686"/>
+                                            </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tPc-h0-PrD">
-                                                <rect key="frame" x="0.0" y="259.66666666666674" width="36" height="76.666666666666686"/>
+                                                <rect key="frame" x="179" y="259.66666666666674" width="36" height="76.666666666666686"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -88,12 +85,12 @@
                             <constraint firstItem="fN2-o6-0F5" firstAttribute="leading" secondItem="1xV-B8-cmt" secondAttribute="leading" constant="10" id="qHN-Pf-TwQ"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="kLz-1n-YLK"/>
+                    <navigationItem key="navigationItem" title="Tag details" id="kLz-1n-YLK"/>
                     <connections>
                         <outlet property="albumArtImage" destination="aSN-3y-fLQ" id="f0v-OH-qCp"/>
                         <outlet property="artistLabel" destination="dzn-oS-ckj" id="Wgu-sg-rKq"/>
                         <outlet property="dateLabel" destination="tPc-h0-PrD" id="lZe-2P-9Qk"/>
-                        <outlet property="osNameLabel" destination="kZS-iq-fpx" id="HzC-gn-7jj"/>
+                        <outlet property="osImage" destination="yQk-Om-PLN" id="r7b-Cl-f4h"/>
                         <outlet property="titleLabel" destination="pQQ-22-WiO" id="kxG-xQ-Nll"/>
                     </connections>
                 </viewController>
