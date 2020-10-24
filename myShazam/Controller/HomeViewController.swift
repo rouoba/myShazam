@@ -54,7 +54,7 @@ class HomeViewController: UITableViewController {
         vc.song = songsList[indexPath.row]
         
         guard let currentCell = myTableView.cellForRow(at: indexPath) as? SongTableViewCell else {return}
-        vc.osIcon = currentCell.osIcon
+        vc.osIcon = currentCell.osImage.image
         
     }
     
@@ -92,10 +92,8 @@ class HomeViewController: UITableViewController {
 
         if songsList[cellPosition].osname == "Android" {
             cell.osImage.image = UIImage(named: "android")
-            cell.osIcon = cell.osImage.image
         } else if songsList[cellPosition].osname == "IOS" {
             cell.osImage.image = UIImage(named: "apple")
-            cell.osIcon = cell.osImage.image
         } else {
             cell.osImage.image = UIImage(named: "questionmark.circle")
         }
