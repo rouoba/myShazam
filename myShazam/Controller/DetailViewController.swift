@@ -24,7 +24,8 @@ class DetailViewController: UIViewController {
         artistLabel.text = song?.artistname
         titleLabel.text = song?.tracktitle
         osImage.image = osIcon
-        dateLabel.text = song?.date
+        dateLabel.text = String((song?.date.prefix(10))!)
+        
     }
     
 

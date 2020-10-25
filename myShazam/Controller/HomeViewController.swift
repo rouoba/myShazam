@@ -36,14 +36,14 @@ class HomeViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> SongTableViewCell {
         guard let cell = myTableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as? SongTableViewCell else {return SongTableViewCell()}
-        
+        cell.layer.cornerRadius = 15.0
         loadDataIn(cell, atPosition: indexPath.row)
         return cell
     }
     
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 75.0
+        return 100.0
     }
     
     
@@ -98,8 +98,8 @@ class HomeViewController: UITableViewController {
             cell.osImage.image = UIImage(named: "questionmark.circle")
         }
         
-        if cellPosition % 2 == 0 {
-            cell.backgroundColor = UIColor.systemTeal
-        }
+//        if cellPosition % 2 == 0 {
+            cell.backgroundColor = UIColor(named: "cellBackgroundColor")
+//        }
     }
 }
