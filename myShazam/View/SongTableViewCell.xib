@@ -31,7 +31,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="wBI-bj-iqZ">
-                                        <rect key="frame" x="103" y="0.0" width="166" height="34"/>
+                                        <rect key="frame" x="103" y="0.0" width="148.5" height="34"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Artist" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ee-g3-VPs">
                                                 <rect key="frame" x="0.0" y="0.0" width="44.5" height="8"/>
@@ -45,14 +45,23 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fmk-K2-7oO">
-                                                <rect key="frame" x="0.0" y="26" width="50" height="8"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
+                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="ZoF-dB-dqc">
+                                                <rect key="frame" x="-2" y="26" width="78.5" height="9"/>
+                                            </slider>
                                         </subviews>
+                                        <constraints>
+                                            <constraint firstItem="ZoF-dB-dqc" firstAttribute="width" secondItem="wBI-bj-iqZ" secondAttribute="width" multiplier="0.5" id="dVt-5y-cTn"/>
+                                        </constraints>
                                     </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ofm-eS-jZv">
+                                        <rect key="frame" x="261.5" y="0.0" width="7.5" height="34"/>
+                                        <state key="normal" image="hand.thumbsup" catalog="system">
+                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="small"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="likeButtonTapped:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="kuC-aJ-lEH"/>
+                                        </connections>
+                                    </button>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bns-mQ-cRG">
                                         <rect key="frame" x="279" y="0.0" width="31" height="34"/>
                                     </imageView>
@@ -60,6 +69,7 @@
                                 <constraints>
                                     <constraint firstItem="bns-mQ-cRG" firstAttribute="width" secondItem="uZ9-Rn-CGc" secondAttribute="width" multiplier="0.1" id="Y0a-3e-oAr"/>
                                     <constraint firstItem="TyG-0N-xyj" firstAttribute="width" secondItem="uZ9-Rn-CGc" secondAttribute="width" multiplier="0.3" id="qlH-dn-SpW"/>
+                                    <constraint firstItem="Ofm-eS-jZv" firstAttribute="width" secondItem="wBI-bj-iqZ" secondAttribute="width" multiplier="0.05" id="sBp-BA-GDi"/>
                                 </constraints>
                             </stackView>
                         </subviews>
@@ -84,14 +94,15 @@
                 <outlet property="artistLabel" destination="8ee-g3-VPs" id="KPH-ro-utH"/>
                 <outlet property="contentStackView" destination="uZ9-Rn-CGc" id="c0J-df-muo"/>
                 <outlet property="dateLabel" destination="TyG-0N-xyj" id="XdY-Iq-Zu9"/>
+                <outlet property="numberOfStarSlider" destination="ZoF-dB-dqc" id="S8n-km-ids"/>
                 <outlet property="osImage" destination="bns-mQ-cRG" id="yMR-ix-Ls6"/>
-                <outlet property="osnameLabel" destination="Fmk-K2-7oO" id="m31-Lc-tXV"/>
                 <outlet property="titleLabel" destination="Jna-oZ-oIe" id="oLF-vN-Vlg"/>
             </connections>
             <point key="canvasLocation" x="137.68115942028987" y="61.607142857142854"/>
         </tableViewCell>
     </objects>
     <resources>
+        <image name="hand.thumbsup" catalog="system" width="128" height="128"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

@@ -68,7 +68,7 @@ class HomeViewController: UITableViewController {
         
         guard let currentCell = myTableView.cellForRow(at: indexPath) as? SongTableViewCell else {return}
         vc.osIcon = currentCell.osImage.image
-        
+        vc.likeButtonImage = currentCell.likeImage
     }
     
    
