@@ -58,6 +58,12 @@ class HomeViewController: UITableViewController {
         
     }
     
+    override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        cell.backgroundColor = .systemBackground
+        if indexPath.row % 2 == 0 {
+            cell.backgroundColor = UIColor(named: "cellBackgroundColor")
+        }
+    }
     
     //Helper functions
     func loadSongsList() {
@@ -97,9 +103,5 @@ class HomeViewController: UITableViewController {
         } else {
             cell.osImage.image = UIImage(named: "questionmark.circle")
         }
-        
-//        if cellPosition % 2 == 0 {
-            cell.backgroundColor = UIColor(named: "cellBackgroundColor")
-//        }
     }
 }
