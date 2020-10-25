@@ -36,7 +36,7 @@ class HomeViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> SongTableViewCell {
         guard let cell = myTableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as? SongTableViewCell else {return SongTableViewCell()}
-        cell.layer.cornerRadius = 15.0
+
         loadDataIn(cell, atPosition: indexPath.row)
         return cell
     }
@@ -44,6 +44,19 @@ class HomeViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 100.0
+    }
+    
+    
+    override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        cell.backgroundColor = .systemBackground
+        
+        guard let newCell = cell as? SongTableViewCell else { return }
+        newCell.contentStackView.layer.cornerRadius = 15.0
+        if indexPath.row % 2 == 0 {
+            newCell.contentStackView.backgroundColor = UIColor(named: "cellBackgroundColor1")
+        } else {
+            newCell.contentStackView.backgroundColor = UIColor(named: "cellBackgroundColor2")
+        }
     }
     
     
@@ -58,12 +71,9 @@ class HomeViewController: UITableViewController {
         
     }
     
-    override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
-        cell.backgroundColor = .systemBackground
-        if indexPath.row % 2 == 0 {
-            cell.backgroundColor = UIColor(named: "cellBackgroundColor")
-        }
-    }
+   
+    
+    
     
     //Helper functions
     func loadSongsList() {

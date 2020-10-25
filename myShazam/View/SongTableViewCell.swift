@@ -14,7 +14,7 @@ class SongTableViewCell: UITableViewCell {
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var osnameLabel: UILabel!
     @IBOutlet weak var osImage: UIImageView!
-    
+    @IBOutlet weak var contentStackView: UIStackView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -26,5 +26,5 @@ class SongTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-    
+
 }
