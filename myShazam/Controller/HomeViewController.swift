@@ -52,11 +52,8 @@ class HomeViewController: UITableViewController {
         
         guard let newCell = cell as? SongTableViewCell else { return }
         newCell.contentStackView.layer.cornerRadius = 15.0
-        if indexPath.row % 2 == 0 {
-            newCell.contentStackView.backgroundColor = UIColor(named: "cellBackgroundColor1")
-        } else {
-            newCell.contentStackView.backgroundColor = UIColor(named: "cellBackgroundColor2")
-        }
+        newCell.contentStackView.backgroundColor = UIColor(named: "cellBackgroundColor2")
+        newCell.ratingSlider.setThumbImage(UIImage(systemName: "star"), for: .normal)
     }
     
     
@@ -69,6 +66,7 @@ class HomeViewController: UITableViewController {
         guard let currentCell = myTableView.cellForRow(at: indexPath) as? SongTableViewCell else {return}
         vc.osIcon = currentCell.osImage.image
         vc.likeButtonImage = currentCell.likeImage
+        vc.sliderValue = currentCell.sliderValue
     }
     
    

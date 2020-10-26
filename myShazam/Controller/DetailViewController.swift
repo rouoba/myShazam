@@ -12,6 +12,7 @@ class DetailViewController: UIViewController {
     var song: Song?
     var osIcon: UIImage?
     var likeButtonImage: UIImage?
+    var sliderValue: Float?
     
     @IBOutlet weak var albumArtImage: UIImageView!
     @IBOutlet weak var artistLabel: UILabel!
@@ -19,6 +20,7 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var osImage: UIImageView!
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var likeImage: UIImageView!
+    @IBOutlet weak var ratingSlider: UISlider!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,17 +30,9 @@ class DetailViewController: UIViewController {
         osImage.image = osIcon
         dateLabel.text = String((song?.date.prefix(10))!)
         likeImage.image = likeButtonImage
+        
+        ratingSlider.setThumbImage(UIImage(systemName: "star"), for: .normal)
+        ratingSlider.setValue(sliderValue ?? 2.0, animated: true)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

@@ -5,7 +5,6 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -45,12 +44,15 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="ZoF-dB-dqc">
-                                                <rect key="frame" x="-2" y="26" width="78.5" height="9"/>
+                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2" minValue="0.0" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="ZoF-dB-dqc">
+                                                <rect key="frame" x="-2" y="26" width="115.5" height="9"/>
+                                                <connections>
+                                                    <action selector="sliderInteract:" destination="KGk-i7-Jjw" eventType="valueChanged" id="Nzm-nW-kgX"/>
+                                                </connections>
                                             </slider>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstItem="ZoF-dB-dqc" firstAttribute="width" secondItem="wBI-bj-iqZ" secondAttribute="width" multiplier="0.5" id="dVt-5y-cTn"/>
+                                            <constraint firstItem="ZoF-dB-dqc" firstAttribute="width" secondItem="wBI-bj-iqZ" secondAttribute="width" multiplier="0.75" id="dVt-5y-cTn"/>
                                         </constraints>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ofm-eS-jZv">
@@ -73,7 +75,6 @@
                                 </constraints>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="uZ9-Rn-CGc" firstAttribute="leading" secondItem="owF-82-i4h" secondAttribute="leading" id="E4P-8X-HiA"/>
                             <constraint firstAttribute="bottom" secondItem="uZ9-Rn-CGc" secondAttribute="bottom" id="ltR-u7-lUM"/>
@@ -94,8 +95,8 @@
                 <outlet property="artistLabel" destination="8ee-g3-VPs" id="KPH-ro-utH"/>
                 <outlet property="contentStackView" destination="uZ9-Rn-CGc" id="c0J-df-muo"/>
                 <outlet property="dateLabel" destination="TyG-0N-xyj" id="XdY-Iq-Zu9"/>
-                <outlet property="numberOfStarSlider" destination="ZoF-dB-dqc" id="S8n-km-ids"/>
                 <outlet property="osImage" destination="bns-mQ-cRG" id="yMR-ix-Ls6"/>
+                <outlet property="ratingSlider" destination="ZoF-dB-dqc" id="S8n-km-ids"/>
                 <outlet property="titleLabel" destination="Jna-oZ-oIe" id="oLF-vN-Vlg"/>
             </connections>
             <point key="canvasLocation" x="137.68115942028987" y="61.607142857142854"/>
@@ -103,8 +104,5 @@
     </objects>
     <resources>
         <image name="hand.thumbsup" catalog="system" width="128" height="128"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>

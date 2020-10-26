@@ -50,30 +50,36 @@
                                         <rect key="frame" x="0.0" y="417.66666666666663" width="394" height="336.33333333333337"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Artist" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dzn-oS-ckj">
-                                                <rect key="frame" x="174" y="0.0" width="46.333333333333343" height="59"/>
+                                                <rect key="frame" x="174" y="0.0" width="46.333333333333343" height="47.666666666666664"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pQQ-22-WiO">
-                                                <rect key="frame" x="180.66666666666666" y="69" width="33" height="59.333333333333343"/>
+                                                <rect key="frame" x="180.66666666666666" y="57.666666666666742" width="33" height="47.666666666666657"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yQk-Om-PLN">
-                                                <rect key="frame" x="77" y="138.33333333333337" width="240" height="59.333333333333343"/>
+                                                <rect key="frame" x="77" y="115.33333333333339" width="240" height="47.666666666666671"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tPc-h0-PrD">
-                                                <rect key="frame" x="179" y="207.66666666666674" width="36" height="59.333333333333314"/>
+                                                <rect key="frame" x="179" y="173" width="36" height="48"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hand.thumbsup" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="khC-65-E7a">
-                                                <rect key="frame" x="187" y="276.33333333333331" width="20.333333333333343" height="60"/>
+                                                <rect key="frame" x="187" y="230.33333333333334" width="20.333333333333343" height="48.333333333333343"/>
                                             </imageView>
+                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2" minValue="0.0" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="4xT-em-Ivb">
+                                                <rect key="frame" x="96.666666666666686" y="288.66666666666674" width="201" height="48.666666666666686"/>
+                                            </slider>
                                         </subviews>
+                                        <constraints>
+                                            <constraint firstItem="4xT-em-Ivb" firstAttribute="width" secondItem="FTu-oO-7EF" secondAttribute="width" multiplier="0.5" id="134-Eq-4vQ"/>
+                                        </constraints>
                                     </stackView>
                                 </subviews>
                                 <variation key="heightClass=compact-widthClass=regular" axis="horizontal"/>
@@ -95,6 +101,7 @@
                         <outlet property="dateLabel" destination="tPc-h0-PrD" id="lZe-2P-9Qk"/>
                         <outlet property="likeImage" destination="khC-65-E7a" id="P3J-Ls-H1I"/>
                         <outlet property="osImage" destination="yQk-Om-PLN" id="r7b-Cl-f4h"/>
+                        <outlet property="ratingSlider" destination="4xT-em-Ivb" id="jk2-9j-cgu"/>
                         <outlet property="titleLabel" destination="pQQ-22-WiO" id="kxG-xQ-Nll"/>
                     </connections>
                 </viewController>

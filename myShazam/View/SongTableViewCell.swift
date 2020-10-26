@@ -14,10 +14,11 @@ class SongTableViewCell: UITableViewCell {
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var osImage: UIImageView!
     @IBOutlet weak var contentStackView: UIStackView!
-    @IBOutlet weak var numberOfStarSlider: UISlider!
+    @IBOutlet weak var ratingSlider: UISlider!
     
     var likeButtonState = false
-    var likeImage: UIImage?
+    var likeImage = UIImage(systemName: "hand.thumbsup")
+    var sliderValue: Float = 2.0
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -40,5 +41,9 @@ class SongTableViewCell: UITableViewCell {
         }
         
         sender.setImage(likeImage, for: .normal)
+    }
+    
+    @IBAction func sliderInteract(_ sender: UISlider) {
+        sliderValue = sender.value
     }
 }
