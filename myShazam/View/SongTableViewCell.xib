@@ -95,6 +95,7 @@
                 <outlet property="artistLabel" destination="8ee-g3-VPs" id="KPH-ro-utH"/>
                 <outlet property="contentStackView" destination="uZ9-Rn-CGc" id="c0J-df-muo"/>
                 <outlet property="dateLabel" destination="TyG-0N-xyj" id="XdY-Iq-Zu9"/>
+                <outlet property="likeButton" destination="Ofm-eS-jZv" id="y2C-uR-V08"/>
                 <outlet property="osImage" destination="bns-mQ-cRG" id="yMR-ix-Ls6"/>
                 <outlet property="ratingSlider" destination="ZoF-dB-dqc" id="S8n-km-ids"/>
                 <outlet property="titleLabel" destination="Jna-oZ-oIe" id="oLF-vN-Vlg"/>

@@ -15,6 +15,7 @@ class SongTableViewCell: UITableViewCell {
     @IBOutlet weak var osImage: UIImageView!
     @IBOutlet weak var contentStackView: UIStackView!
     @IBOutlet weak var ratingSlider: UISlider!
+    @IBOutlet weak var likeButton: UIButton!
     
     var likeButtonState = false
     var likeImage = UIImage(systemName: "hand.thumbsup")

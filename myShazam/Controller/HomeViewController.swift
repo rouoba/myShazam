@@ -23,6 +23,9 @@ class HomeViewController: UITableViewController {
         self.myTableView.register(UINib(nibName: "SongTableViewCell", bundle: nil), forCellReuseIdentifier: "cell")
     }
 
+    override func viewDidAppear(_ animated: Bool) {
+        myTableView.reloadData()
+    }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return songsList.count
@@ -62,9 +65,12 @@ class HomeViewController: UITableViewController {
         guard let vc = segue.destination as? DetailViewController else { return }
         
         vc.song = songsList[indexPath.row]
+        vc.delegate = self
+        vc.cellPath = indexPath
         
         guard let currentCell = myTableView.cellForRow(at: indexPath) as? SongTableViewCell else {return}
         vc.osIcon = currentCell.osImage.image
+        vc.liked = currentCell.likeButtonState
         vc.likeButtonImage = currentCell.likeImage
         vc.sliderValue = currentCell.sliderValue
     }
@@ -110,6 +116,20 @@ class HomeViewController: UITableViewController {
             cell.osImage.image = UIImage(named: "apple")
         } else {
             cell.osImage.image = UIImage(named: "questionmark.circle")
+        }
+    }
+    
+    
+    func updateCollection(indexPath: IndexPath, sliderValue: Float, liked: Bool, likeImage: UIImage) {
+        guard let currentCell = myTableView.cellForRow(at: indexPath) as? SongTableViewCell else { return }
+        currentCell.sliderValue = sliderValue
+        currentCell.ratingSlider.setValue(sliderValue, animated: true)
+        currentCell.likeButtonState = liked
+        currentCell.likeImage = likeImage
+        if liked {
+            currentCell.likeButton.setImage(UIImage(systemName: "hand.thumbsup.fill"), for: .normal)
+        } else {
+            currentCell.likeButton.setImage(UIImage(systemName: "hand.thumbsup"), for: .normal)
         }
     }
 }
